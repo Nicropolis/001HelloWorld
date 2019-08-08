@@ -11,7 +11,11 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             //we will try second branch
-            Console.WriteLine("Hello world, Misha");
+            Console.Write("Enter your name:");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}");
+            Console.WriteLine("Press enter to exit");
+            Console.ReadLine();
         }
     }
 }
