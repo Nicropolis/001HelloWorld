@@ -10,6 +10,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
+            //we will try second branch
             Console.Write("Enter your name:");
             string name = Console.ReadLine();
             Console.WriteLine($"Hello, {name}");
